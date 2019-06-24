@@ -1,0 +1,995 @@
+{
+  "etree": {
+    "Return": {
+      "@returnVersion": "2010v3.2",
+      "ReturnData": {
+        "@documentCount": "4",
+        "IRS990EZ": {
+          "@documentId": "IRS990EZ",
+          "@referenceDocumentId": "IRS990ScheduleO TransfersPersonalBenefitsContr",
+          "@softwareId": "10000105",
+          "@softwareVersion": "2010v3.2",
+          "ActivitiesNotPreviouslyRpt": {
+            "_": "false"
+          },
+          "CashSavingsAndInvestments": {
+            "BOY": {
+              "_": "45726"
+            },
+            "EOY": {
+              "_": "59009"
+            }
+          },
+          "ContributionsGiftsGrantsEtc": {
+            "_": "64390"
+          },
+          "CostOfGoodsSold": {
+            "_": "0"
+          },
+          "CostOtherBasisAndSalesExpenses": {
+            "_": "0"
+          },
+          "DidOrgFileForm1120POLThisYear": {
+            "_": "false"
+          },
+          "DoesOrgHaveHospital": {
+            "_": "false"
+          },
+          "EngageInLobbyingActivities": {
+            "_": "false"
+          },
+          "EngagePoliticalCmpgnActivities": {
+            "_": "false"
+          },
+          "EngagedInExcessBenefitTrans": {
+            "_": "false"
+          },
+          "ExcessOrDeficitForYear": {
+            "_": "13482"
+          },
+          "FeesAndOthPymtToIndContractors": {
+            "_": "39"
+          },
+          "FiledScheduleA": {
+            "_": "true"
+          },
+          "ForeignFinancialAccount": {
+            "_": "false"
+          },
+          "ForeignOffice": {
+            "_": "false"
+          },
+          "Form720Filed": {
+            "_": "false"
+          },
+          "FundraisingGrossIncome": {
+            "_": "0"
+          },
+          "GrantsAndSimilarAmountsPaid": {
+            "_": "500"
+          },
+          "GrossReceipts": {
+            "_": "64406"
+          },
+          "GrossReceiptsForPublicUse": {
+            "_": "0"
+          },
+          "InfoInScheduleOPartI": {
+            "_": "X"
+          },
+          "InfoInScheduleOPartII": {
+            "_": "X"
+          },
+          "InfoInScheduleOPartIV": {
+            "_": "X"
+          },
+          "InfoInScheduleOPartV": {
+            "_": "X"
+          },
+          "InitiationFeesAndCapitalContri": {
+            "_": "0"
+          },
+          "InvestmentIncome": {
+            "_": "16"
+          },
+          "MadeChangesToOrgnzngEtcDoc": {
+            "_": "false"
+          },
+          "MadeLoansToFromOfficers": {
+            "_": "false"
+          },
+          "MaintainAnyDonorAdvisedFunds": {
+            "_": "false"
+          },
+          "MethodOfAccountingAccrual": {
+            "_": "X"
+          },
+          "NetAssetsOrFundBalances": {
+            "BOY": {
+              "_": "45527"
+            },
+            "EOY": {
+              "_": "59009"
+            }
+          },
+          "NetAssetsOrFundBalancesBOY": {
+            "_": "45527"
+          },
+          "NetAssetsOrFundBalancesEOY": {
+            "_": "59009"
+          },
+          "OfficerDirectorTrusteeKeyEmpl": [
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "5260 N Palm Ave"
+                },
+                "City": {
+                  "_": "Fresno"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93704"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "0"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Charles Manock"
+              },
+              "Title": {
+                "_": "Director"
+              }
+            },
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "P O Box 9440"
+                },
+                "City": {
+                  "_": "Fresno"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93792"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "1.00"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Hal Kissler"
+              },
+              "Title": {
+                "_": "Director/EBoard"
+              }
+            },
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "5130 E Clinton Ave"
+                },
+                "City": {
+                  "_": "Fresno"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93727"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "1.00"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Jana Price-Sharps"
+              },
+              "Title": {
+                "_": "Director"
+              }
+            },
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "2323 Mariposa Street"
+                },
+                "City": {
+                  "_": "Fresno"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93721"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "1.00"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Heather Soares"
+              },
+              "Title": {
+                "_": "Director"
+              }
+            },
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "1333 G Street"
+                },
+                "City": {
+                  "_": "Fresno"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93706"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "0"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Gayle Takakjian-Gilbert"
+              },
+              "Title": {
+                "_": "Director/EBrd."
+              }
+            },
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "7320 N Remington Ave"
+                },
+                "City": {
+                  "_": "Fresno"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93711"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "0"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Sterling Swartout"
+              },
+              "Title": {
+                "_": "Director"
+              }
+            },
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "1063 N Filbert"
+                },
+                "City": {
+                  "_": "Clovis"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93611"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "0"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Mark DerMatoian"
+              },
+              "Title": {
+                "_": "Vice President"
+              }
+            },
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "4870 W Jacquelyn"
+                },
+                "City": {
+                  "_": "Fresno"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93722"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "1.00"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Dennis Perkins"
+              },
+              "Title": {
+                "_": "Director"
+              }
+            },
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "423 W Fallbrook Suite 201"
+                },
+                "City": {
+                  "_": "Fresno"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93711"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "1.00"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Peter De Young"
+              },
+              "Title": {
+                "_": "Director"
+              }
+            },
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "2323 Mariposa Street"
+                },
+                "City": {
+                  "_": "Fresno"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93721"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "0"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Jerry Dyer"
+              },
+              "Title": {
+                "_": "Advisory"
+              }
+            },
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "2323 Mariposa Street"
+                },
+                "City": {
+                  "_": "Fresno"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93721"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "1.00"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Donald Gross"
+              },
+              "Title": {
+                "_": "Treas/E-Board"
+              }
+            },
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "5161 N Forkner"
+                },
+                "City": {
+                  "_": "Fresno"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93711"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "1.00"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Jonathan Chessum"
+              },
+              "Title": {
+                "_": "Director"
+              }
+            },
+            {
+              "AddressUS": {
+                "AddressLine1": {
+                  "_": "731 W San Jose"
+                },
+                "City": {
+                  "_": "Fresno"
+                },
+                "State": {
+                  "_": "CA"
+                },
+                "ZIPCode": {
+                  "_": "93704"
+                }
+              },
+              "AvgHoursPerWkDevotedToPosition": {
+                "_": "1.00"
+              },
+              "Compensation": {
+                "_": "0"
+              },
+              "PersonName": {
+                "_": "Mike Shirinian"
+              },
+              "Title": {
+                "_": "President"
+              }
+            }
+          ],
+          "OperatingSchool": {
+            "_": "false"
+          },
+          "Organization501c3": {
+            "@referenceDocumentId": " IRS990ScheduleA",
+            "_": "X"
+          },
+          "OrganizationDissolvedEtc": {
+            "_": "false"
+          },
+          "OrganizationHadUBI": {
+            "_": "false"
+          },
+          "OtherExpensesTotal": {
+            "_": "50240"
+          },
+          "PartVIAHghstPaidCntrctProfSer": {
+            "_": "NONE"
+          },
+          "PartVIOfCompOfHighestPaidEmpl": {
+            "_": "NONE"
+          },
+          "PrimaryExemptPurpose": {
+            "_": "See Statement 6"
+          },
+          "PrintingPublicationsPostage": {
+            "_": "145"
+          },
+          "ProgramServiceAccomplishment": {
+            "DescriptionProgramServiceAccom": {
+              "_": "See Statement 6"
+            }
+          },
+          "ProhibitedTaxShelterTrans": {
+            "_": "false"
+          },
+          "RelatedOrgControlledEntity": {
+            "_": "false"
+          },
+          "RelatedOrgSection527Org": {
+            "_": "false"
+          },
+          "SpecialEventsDirectExpenses": {
+            "_": "0"
+          },
+          "SpecialEventsNetIncomeLoss": {
+            "_": "0"
+          },
+          "StatesWhereCopyOfReturnIsFiled": {
+            "_": "CA"
+          },
+          "SumOfTotalLiabilities": {
+            "BOY": {
+              "_": "199"
+            }
+          },
+          "TanningServicesProvided": {
+            "_": "false"
+          },
+          "TheBooksAreInCareOf": {
+            "AddressUS": {
+              "AddressLine1": {
+                "_": "970 West Alluvial Suite 101"
+              },
+              "City": {
+                "_": "Fresno"
+              },
+              "State": {
+                "_": "CA"
+              },
+              "ZIPCode": {
+                "_": "93711"
+              }
+            },
+            "NamePerson": {
+              "_": "Baker Peterson Franklin CPA"
+            },
+            "TelephoneNumber": {
+              "_": "5594322346"
+            }
+          },
+          "TotalAssets": {
+            "BOY": {
+              "_": "45726"
+            },
+            "EOY": {
+              "_": "59009"
+            }
+          },
+          "TotalExpenses": {
+            "_": "50924"
+          },
+          "TotalRevenue": {
+            "_": "64406"
+          },
+          "TransactionWithControlEntity": {
+            "_": "false"
+          },
+          "TrnsfrsExemptNonCharRelatedOrg": {
+            "_": "false"
+          },
+          "WebSite": {
+            "_": "N/A"
+          }
+        },
+        "IRS990ScheduleA": {
+          "@documentId": "IRS990ScheduleA",
+          "@softwareId": "10000105",
+          "@softwareVersion": "2010v3.2",
+          "AmountsSubstContributorsTotal": {
+            "_": "17006"
+          },
+          "GiftsGrantsContribReceived170": {
+            "CurrentTaxYear": {
+              "_": "64390"
+            },
+            "CurrentTaxYearMinus1Year": {
+              "_": "63441"
+            },
+            "CurrentTaxYearMinus2Years": {
+              "_": "55220"
+            },
+            "CurrentTaxYearMinus3Years": {
+              "_": "176913"
+            },
+            "CurrentTaxYearMinus4Years": {
+              "_": "40715"
+            },
+            "Total": {
+              "_": "400679"
+            }
+          },
+          "GrossInvestmentIncome170": {
+            "Total": {
+              "_": "0"
+            }
+          },
+          "NetUBI": {
+            "CurrentTaxYear": {
+              "_": "16"
+            },
+            "CurrentTaxYearMinus1Year": {
+              "_": "991"
+            },
+            "CurrentTaxYearMinus2Years": {
+              "_": "2632"
+            },
+            "CurrentTaxYearMinus3Years": {
+              "_": "171"
+            },
+            "CurrentTaxYearMinus4Years": {
+              "_": "-4803"
+            },
+            "Total": {
+              "_": "-993"
+            }
+          },
+          "OtherIncome170": {
+            "Total": {
+              "_": "0"
+            }
+          },
+          "PublicSupportPertcentPriorYear": {
+            "_": "0.87270"
+          },
+          "PublicSupportPertcentage170": {
+            "_": "0.95990"
+          },
+          "PublicSupportTotal170": {
+            "_": "383673"
+          },
+          "PubliclySupportedOrg170b1Avi": {
+            "_": "X"
+          },
+          "TaxRevLeviedForOrgBenefit170": {
+            "Total": {
+              "_": "0"
+            }
+          },
+          "ThirtyThreePercntTestsCY170": {
+            "_": "X"
+          },
+          "Total170": {
+            "CurrentTaxYear": {
+              "_": "64390"
+            },
+            "CurrentTaxYearMinus1Year": {
+              "_": "63441"
+            },
+            "CurrentTaxYearMinus2Years": {
+              "_": "55220"
+            },
+            "CurrentTaxYearMinus3Years": {
+              "_": "176913"
+            },
+            "CurrentTaxYearMinus4Years": {
+              "_": "40715"
+            },
+            "Total": {
+              "_": "400679"
+            }
+          },
+          "TotalSupport": {
+            "_": "399686"
+          },
+          "ValueSrvcFcltsFurnishedByGovt": {
+            "Total": {
+              "_": "0"
+            }
+          }
+        },
+        "IRS990ScheduleB": {
+          "@documentId": "IRS990ScheduleB",
+          "@softwareId": "10000105",
+          "@softwareVersion": "2010v3.2",
+          "ContributorInfo": {
+            "AggregateContributions": {
+              "_": "RESTRICTED"
+            },
+            "ContributorAddressUS": {
+              "AddressLine1": {
+                "_": "RESTRICTED"
+              },
+              "AddressLine2": {
+                "_": "RESTRICTED"
+              },
+              "City": {
+                "_": "RESTRICTED"
+              },
+              "State": {
+                "_": "RESTRICTED"
+              },
+              "ZIPCode": {
+                "_": "RESTRICTED"
+              }
+            },
+            "ContributorNameBusiness": {
+              "BusinessNameLine1": {
+                "_": "RESTRICTED"
+              }
+            },
+            "ContributorNumber": {
+              "_": "RESTRICTED"
+            }
+          }
+        },
+        "IRS990ScheduleO": {
+          "@documentId": "IRS990ScheduleO",
+          "@softwareId": "10000105",
+          "@softwareVersion": "2010v3.2",
+          "GeneralExplanation": [
+            {
+              "Explanation": {
+                "_": "Accounts Payable and Accrued Expenses - Beginning $199 Accounts Payable and Accrued Expenses - Ending $0"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part II, Line 26.1001"
+              },
+              "ReturnReference": {
+                "_": "Total Liabilities.1001"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Plaques and Trophies $9"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.13"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.13"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Miscellaneous $25"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.12"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.12"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Payroll Service Charges $49"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.11"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.11"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Licenses & Permits $55"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.10"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.10"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Bank Service Charges $275"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.7"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.7"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Dues and Subscriptions $559"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.6"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.6"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Telephone $827"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.5"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.5"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Insurance $1450"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.4"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.4"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Supplies $1698"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.3"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.3"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Promotional Events $2132"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.2"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.2"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Program Expenses $40333"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.1"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.1"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Travel $340"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.1005"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.1005"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Advertising and Promotion $2488"
+              },
+              "Identifier": {
+                "_": "Form 990-EZ, Part I, Line 16.1001"
+              },
+              "ReturnReference": {
+                "_": "Other Expenses.1001"
+              }
+            },
+            {
+              "Explanation": {
+                "_": "Client Note 1 - Statement 6Form 990, Part III and Part VIIIStatement of Program Service Accomplishments - 2010 The Fresno Police Chief's Foundation (hereinafter, the Foundation) is committed to improving community relations and promoting the Fresno Police Department's interaction with the citizens of Fresno and various community organizations. The Foundation is also committed to supporting the Fresno Police Department by helping to fulfill some of the Department's unmet needs. As a result of satisfying these needs, the Department and its officers are better equipped to combat and reduce the incidence of disturbances and crime throughout the community. To achieve its goals, the Foundation supports many activities that benefit the citizens of the community and enhance the effectiveness of the police department. Support is provided by promoting youth intervention activities and by direct financial assistance to community organizations. In addition, the Foundation provides tools and resources that enhance officer and community safety, bolster staff training, recognize outstanding officer achievements, improve department professionalism, increase overall effectiveness, and significantly contribute to a decrease in the incidence of crime in our community. Working closely with and, at times, offering support to other agencies that promote crime prevention and/or assistance to victims serves to improve the community by helping to provide attractive and suitable alternatives to criminal lifestyles, provides aid to victims of crime, and increases the community's overall sense of safety. The Foundation also furthers beneficial and critical programs through direct donations to recognized organizations and through direct support to various community activities. Activities and programs for the 2010 calendar year included the following:GENERAL OPERATIONS: General operation activities of the Foundation supported a variety of beneficial community group programs and efforts. The fundamental purpose of these community groups is to promote community-wide crime prevention through education, mentoring, and structured assistance. Examples of these groups include: the Samaritan Women (a faith-based organization, helping to transition paroled women into society), the John Muir Elementary School Pen Pal Program, the Fresno Police Activities League, Rotary clubs for work with at-risk youth, and the Fresno Fire Chief's Foundation, which promotes fire education and safety.MOTHERS AGAINST DRUNK DRIVERS (MADD): The Foundation strongly supports and works closely with MADD. Officers participate in an annual conference to learn up-to-date methods and strategies for combating the drunk driver problem.OTHER GENERAL DONATIONS AND CONTRIBUTIONS: The Fresno Police Chief's Foundation continued its efforts to provide training and support to members of the Fresno Police Department, and to recognize outstanding achievements by police department personnel. Among the recognitions for accomplishments supported by the Foundation in 2008, were the following: 1. Support for the Fresno Police swearing in ceremony, 2. Recognition of Employees of the Quarter, 3. Sponsorship of police officers in the Pacific Grove Police Motorcycle competition, 4. Sponsorship of local Fresno high risk youth in martial arts classes and competitions, 5. Citizen volunteer, and Fresno Police, and Neighborhood Watch Association appreciation evening events.CONCLUSION: Support from the Foundation assists the Fresno Police Department by enhancing prevention services and utilizing available community resources to improve law enforcement and prevention activities in the City of Fresno. As demonstrated by the programs and activities outlined above, the Fresno Police Chief's Foundation is a vital organization for promoting community involvement and cooperation. The Foundation generates important benefits through its support efforts in fighting crime and through improving relationships between community organizations, the citizens of Fresno, and the Fresno Police Department. The Foundation's efforts are paying off, as Fresno enjoyed a significant crime reduction during 2010, leading to a 35-year low in local crime perpetration."
+              }
+            }
+          ]
+        }
+      },
+      "ReturnHeader": {
+        "@binaryAttachmentCount": "0",
+        "BuildTS": {
+          "_": "2016-03-07 17:11:31Z"
+        },
+        "Filer": {
+          "EIN": {
+            "_": "412029665"
+          },
+          "Name": {
+            "BusinessNameLine1": {
+              "_": "Fresno Police Chiefs Foundation"
+            }
+          },
+          "NameControl": {
+            "_": "FRES"
+          },
+          "Phone": {
+            "_": "5594399110"
+          },
+          "USAddress": {
+            "AddressLine1": {
+              "_": "P O Box 1289"
+            },
+            "City": {
+              "_": "Fresno"
+            },
+            "State": {
+              "_": "CA"
+            },
+            "ZIPCode": {
+              "_": "93715"
+            }
+          }
+        },
+        "Officer": {
+          "DateSigned": {
+            "_": "2011-11-15"
+          },
+          "Name": {
+            "_": "Mike Shirinian"
+          },
+          "Title": {
+            "_": "President"
+          }
+        },
+        "Preparer": {
+          "Name": {
+            "_": "Edward J Hashim"
+          },
+          "Phone": {
+            "_": "5594322346"
+          }
+        },
+        "PreparerFirm": {
+          "PreparerFirmBusinessName": {
+            "BusinessNameLine1": {
+              "_": "Baker Peterson & Franklin CPA LLP"
+            }
+          },
+          "PreparerFirmUSAddress": {
+            "AddressLine1": {
+              "_": "970 W Alluvial 101"
+            },
+            "City": {
+              "_": "Fresno"
+            },
+            "State": {
+              "_": "CA"
+            },
+            "ZIPCode": {
+              "_": "93711"
+            }
+          }
+        },
+        "ReturnType": {
+          "_": "990EZ"
+        },
+        "TaxPeriodBeginDate": {
+          "_": "2010-01-01"
+        },
+        "TaxPeriodEndDate": {
+          "_": "2010-12-31"
+        },
+        "TaxYear": {
+          "_": "2010"
+        },
+        "Timestamp": {
+          "_": "2011-11-15T11:52:06-08:00"
+        }
+      }
+    }
+  },
+  "irs_object_id": "201113199349201766",
+  "record_id": "412029665_201012"
+}

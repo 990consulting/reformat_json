@@ -1,23 +1,26 @@
 from convert import convert
 from typing import Dict
 
+
 def test_empty():
     original: Dict = {}
     expected: Dict = {}
     actual: Dict = convert(original)
     assert actual == expected
 
+
 def test_no_change_case():
     original: Dict = {
-        "record_id" : "412029665_201012",
-        "irs_object_id" : "201113199349201766",
+        "record_id": "412029665_201012",
+        "irs_object_id": "201113199349201766",
     }
     expected: Dict = {
-        "record_id" : "412029665_201012",
-        "irs_object_id" : "201113199349201766",
+        "record_id": "412029665_201012",
+        "irs_object_id": "201113199349201766",
     }
     actual: Dict = convert(original)
     assert actual == expected
+
 
 def test_attribute_and_text():
     original: Dict = {
@@ -34,6 +37,7 @@ def test_attribute_and_text():
     }
     actual: Dict = convert(original)
     assert actual == expected
+
 
 def test_attribute_and_text_nested():
     original: Dict = {
@@ -54,6 +58,7 @@ def test_attribute_and_text_nested():
     }
     actual: Dict = convert(original)
     assert actual == expected
+
 
 def test_attribute_and_text_list():
     original: Dict = {
@@ -91,55 +96,57 @@ def test_attribute_and_text_list():
     actual: Dict = convert(original)
     assert expected == actual
 
+
 def test_real_attribute_case():
     original: Dict = {
-        "record_id" : "412029665_201012",
-        "irs_object_id" : "201113199349201766",
-        "etree" : {
-            "Return" : {
-                "@returnVersion" : "2010v3.2",
+        "record_id": "412029665_201012",
+        "irs_object_id": "201113199349201766",
+        "etree": {
+            "Return": {
+                "@returnVersion": "2010v3.2",
             }
         }
     }
     expected: Dict = {
-        "record_id" : "412029665_201012",
-        "irs_object_id" : "201113199349201766",
-        "etree" : {
+        "record_id": "412029665_201012",
+        "irs_object_id": "201113199349201766",
+        "etree": {
             "Return@returnVersion": "2010v3.2"
         }
     }
     actual: Dict = convert(original)
     assert expected == actual
 
+
 def test_real_element_text_case():
     original: Dict = {
-        "record_id" : "412029665_201012",
-        "irs_object_id" : "201113199349201766",
-        "etree" : {
-            "Return" : {
-                "@returnVersion" : "2010v3.2",
-                "ReturnHeader" : {
-                    "@binaryAttachmentCount" : "0",
-                    "Timestamp" : {
-                        "_" : "2011-11-15T11:52:06-08:00"
+        "record_id": "412029665_201012",
+        "irs_object_id": "201113199349201766",
+        "etree": {
+            "Return": {
+                "@returnVersion": "2010v3.2",
+                "ReturnHeader": {
+                    "@binaryAttachmentCount": "0",
+                    "Timestamp": {
+                        "_": "2011-11-15T11:52:06-08:00"
                     },
-                    "TaxPeriodEndDate" : {
-                        "_" : "2010-12-31"
+                    "TaxPeriodEndDate": {
+                        "_": "2010-12-31"
                     }
                 }
             }
         }
     }
     expected: Dict = {
-        "record_id" : "412029665_201012",
-        "irs_object_id" : "201113199349201766",
-        "etree" : {
-            "Return@returnVersion" : "2010v3.2",
+        "record_id": "412029665_201012",
+        "irs_object_id": "201113199349201766",
+        "etree": {
+            "Return@returnVersion": "2010v3.2",
             "Return": {
-                "ReturnHeader@binaryAttachmentcount": "0",
-                "ReturnHeader" : {
-                    "Timestamp" : "2011-11-15T11:52:06-08:00",
-                    "TaxPeriodEndDate" : "2010-12-31"
+                "ReturnHeader@binaryAttachmentCount": "0",
+                "ReturnHeader": {
+                    "Timestamp": "2011-11-15T11:52:06-08:00",
+                    "TaxPeriodEndDate": "2010-12-31"
                 }
             }
         }
@@ -147,21 +154,22 @@ def test_real_element_text_case():
     actual: Dict = convert(original)
     assert expected == actual
 
+
 def test_real_multiple_attributes_case():
     original: Dict = {
-        "record_id" : "412029665_201012",
-        "irs_object_id" : "201113199349201766",
-        "etree" : {
-            "Return" : {
-                "ReturnData" : {
-                    "@documentCount" : "4",
-                    "IRS990EZ" : {
-                        "@documentId" : "IRS990EZ",
-                        "@referenceDocumentId" : "IRS990ScheduleO TransfersPersonalBenefitsContr",
-                        "@softwareId" : "10000105",
-                        "@softwareVersion" : "2010v3.2",
-                        "MethodOfAccountingAccrual" : {
-                            "_" : "X"
+        "record_id": "412029665_201012",
+        "irs_object_id": "201113199349201766",
+        "etree": {
+            "Return": {
+                "ReturnData": {
+                    "@documentCount": "4",
+                    "IRS990EZ": {
+                        "@documentId": "IRS990EZ",
+                        "@referenceDocumentId": "IRS990ScheduleO TransfersPersonalBenefitsContr",
+                        "@softwareId": "10000105",
+                        "@softwareVersion": "2010v3.2",
+                        "MethodOfAccountingAccrual": {
+                            "_": "X"
                         }
                     }
                 }
@@ -169,18 +177,18 @@ def test_real_multiple_attributes_case():
         }
     }
     expected: Dict = {
-        "record_id" : "412029665_201012",
-        "irs_object_id" : "201113199349201766",
-        "etree" : {
-            "Return" : {
-                "ReturnData@documentCount": 4,
-                "ReturnData" : {
-                    "IRS990EZ@documentId" : "IRS990EZ",
-                    "IRS990EZ@referenceDocumentId" : "IRS990ScheduleO TransfersPersonalBenefitsContr",
-                    "IRS990EZ@softwareId" : "10000105",
-                    "IRS990EZ@softwareVersion" : "2010v3.2",
-                    "IRS990EZ" : {
-                        "MethodOfAccountingAccrual" : "X"
+        "record_id": "412029665_201012",
+        "irs_object_id": "201113199349201766",
+        "etree": {
+            "Return": {
+                "ReturnData@documentCount": "4",
+                "ReturnData": {
+                    "IRS990EZ@documentId": "IRS990EZ",
+                    "IRS990EZ@referenceDocumentId": "IRS990ScheduleO TransfersPersonalBenefitsContr",
+                    "IRS990EZ@softwareId": "10000105",
+                    "IRS990EZ@softwareVersion": "2010v3.2",
+                    "IRS990EZ": {
+                        "MethodOfAccountingAccrual": "X"
                     }
                 }
             }
@@ -189,113 +197,115 @@ def test_real_multiple_attributes_case():
     actual: Dict = convert(original)
     assert expected == actual
 
+
 def test_real_list_case():
     original: Dict = {
-        "record_id" : "412029665_201012",
-        "irs_object_id" : "201113199349201766",
-        "etree" : {
-            "Return" : {
-                "ReturnData" : {
-                    "@documentCount" : "4",
-                    "IRS990EZ" : {
-                        "OfficerDirectorTrusteeKeyEmpl" : [
+        "record_id": "412029665_201012",
+        "irs_object_id": "201113199349201766",
+        "etree": {
+            "Return": {
+                "ReturnData": {
+                    "@documentCount": "4",
+                    "IRS990EZ": {
+                        "OfficerDirectorTrusteeKeyEmpl": [
                             {
-                                "PersonName" : {
-                                    "_" : "Charles Manock"
+                                "PersonName": {
+                                    "_": "Charles Manock"
                                 },
-                                "AddressUS" : {
-                                    "AddressLine1" : {
-                                        "_" : "5260 N Palm Ave"
+                                "AddressUS": {
+                                    "AddressLine1": {
+                                        "_": "5260 N Palm Ave"
                                     },
-                                    "City" : {
-                                        "_" : "Fresno"
+                                    "City": {
+                                        "_": "Fresno"
                                     },
-                                    "State" : {
-                                        "_" : "CA"
+                                    "State": {
+                                        "_": "CA"
                                     },
-                                    "ZIPCode" : {
-                                        "_" : "93704"
+                                    "ZIPCode": {
+                                        "_": "93704"
                                     }
                                 },
-                                "Title" : {
-                                    "_" : "Director"
+                                "Title": {
+                                    "_": "Director"
                                 },
-                                "AvgHoursPerWkDevotedToPosition" : {
-                                    "_" : "0"
+                                "AvgHoursPerWkDevotedToPosition": {
+                                    "_": "0"
                                 },
-                                "Compensation" : {
-                                    "_" : "0"
+                                "Compensation": {
+                                    "_": "0"
                                 }
                             },
                             {
-                                "PersonName" : {
-                                    "_" : "Hal Kissler"
+                                "PersonName": {
+                                    "_": "Hal Kissler"
                                 },
-                                "AddressUS" : {
-                                    "AddressLine1" : {
-                                        "_" : "P O Box 9440"
+                                "AddressUS": {
+                                    "AddressLine1": {
+                                        "_": "P O Box 9440"
                                     },
-                                    "City" : {
-                                        "_" : "Fresno"
+                                    "City": {
+                                        "_": "Fresno"
                                     },
-                                    "State" : {
-                                        "_" : "CA"
+                                    "State": {
+                                        "_": "CA"
                                     },
-                                    "ZIPCode" : {
-                                        "_" : "93792"
+                                    "ZIPCode": {
+                                        "_": "93792"
                                     }
                                 },
-                                "Title" : {
-                                    "_" : "Director/EBoard"
+                                "Title": {
+                                    "_": "Director/EBoard"
                                 },
-                                "AvgHoursPerWkDevotedToPosition" : {
-                                    "_" : "1.00"
+                                "AvgHoursPerWkDevotedToPosition": {
+                                    "_": "1.00"
                                 },
-                                "Compensation" : {
-                                    "_" : "0"
+                                "Compensation": {
+                                    "_": "0"
                                 }
                             }
                         ]
                     }
-                }
+                },
             }
         }
     }
     expected: Dict = {
-        "record_id" : "412029665_201012",
-        "irs_object_id" : "201113199349201766",
-        "etree" : {
-            "Return" : {
-                "ReturnData" : {
-                    "IRS990EZ" : {
-                        "OfficerDirectorTrusteeKeyEmpl" : [
+        "record_id": "412029665_201012",
+        "irs_object_id": "201113199349201766",
+        "etree": {
+            "Return": {
+                "ReturnData": {
+                    "IRS990EZ": {
+                        "OfficerDirectorTrusteeKeyEmpl": [
                             {
-                                "PersonName" : "Charles Manock",
-                                "AddressUS" : {
-                                    "AddressLine1" : "5260 N Palm Ave",
-                                    "City" : "Fresno",
-                                    "State" : "CA",
-                                    "ZIPCode" : "93704"
+                                "PersonName": "Charles Manock",
+                                "AddressUS": {
+                                    "AddressLine1": "5260 N Palm Ave",
+                                    "City": "Fresno",
+                                    "State": "CA",
+                                    "ZIPCode": "93704"
                                 },
-                                "Title" : "Director",
-                                "AvgHoursPerWkDevotedToPosition" : "0",
-                                "Compensation" : "0"
+                                "Title": "Director",
+                                "AvgHoursPerWkDevotedToPosition": "0",
+                                "Compensation": "0"
                             },
                             {
-                                "PersonName" : "Hal Kissler",
-                                "AddressUS" : {
-                                    "AddressLine1" : "P O Box 9440",
-                                    "City" : "Fresno",
-                                    "State" : "CA",
-                                    "ZIPCode" : "93792"
+                                "PersonName": "Hal Kissler",
+                                "AddressUS": {
+                                    "AddressLine1": "P O Box 9440",
+                                    "City": "Fresno",
+                                    "State": "CA",
+                                    "ZIPCode": "93792"
                                 },
-                                "Title" : "Director/EBoard",
-                                "AvgHoursPerWkDevotedToPosition" : "1.00",
-                                "Compensation" : "0"
+                                "Title": "Director/EBoard",
+                                "AvgHoursPerWkDevotedToPosition": "1.00",
+                                "Compensation": "0"
                             }
                         ]
                     }
-                }
+                },
+                "ReturnData@documentCount": "4"
             }
         }
     }
